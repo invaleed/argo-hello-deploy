@@ -1,0 +1,13 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+nameSuffix: -prod
+
+patchesStrategicMerge:
+- ./deployment-patch.yaml
+
+images:
+- name: invaleed/argo-hello
+  newTag: ca15f82b9d8596013915e3fac764eb2c7784c329
+resources:
+- ../base
