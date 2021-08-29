@@ -8,6 +8,6 @@ patchesStrategicMerge:
 
 images:
 - name: invaleed/argo-hello
-  newTag: 5978f77e3b69b5c0606d4035787f498d9b35dd77
+  newTag: 4f70007f4ea77b980d6ddc3b9e342e363e4ae77e
 resources:
 - ../base
